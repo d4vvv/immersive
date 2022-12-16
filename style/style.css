@@ -1,0 +1,398 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f6f5f5;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  color: white;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* HEADER */
+header{
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #291f3b 20%, #796c91 100%);
+  background-color: #221f3b;
+  background-color: #796c91;
+  position: relative;
+  margin-bottom: 10%;
+}
+/* navbar */
+.navbar {
+   background-color: transparent !important;
+   background: transparent !important;
+   border-color: transparent !important;
+}
+.logo-img{
+  width: 15%;
+  padding: 2%;
+}
+.nav-link {
+  color: white !important;
+  font-family: 'Lexend', sans-serif;
+}
+.navbar-brand{
+    color: white !important;
+    font-family: 'Lexend', sans-serif;
+}
+.navbar-toggler{
+  align-items: right;
+}
+/* title first page img */
+.header-row{
+  margin-top: 10%;
+}
+
+.img-header-column{
+  align-self: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 90%;
+}
+.img-header-column img{
+  width: 80%;
+  transform: scaleX(-1);
+}
+
+.text-header-column{
+  color: #FFFFFF;
+  margin-right: 10%;
+}
+.text-header-column h1{
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.text-header-column p{
+  font-family: 'Lexend', sans-serif;
+}
+.more-info-btn{
+  width: 50%;
+  height: 40px;
+  background: none;
+  border: 4px solid;
+  color: #f23cfa;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+/* ABOUT US */
+
+.about{
+  min-height: 50vh;
+  margin-bottom: 5%;
+}
+.about h1{
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  margin-top: 3%;
+}
+
+.about h2{
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  margin-bottom: 3%;
+}
+.about p{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    padding: 0 15%;
+    padding-top: 10%;
+}
+.about-columns{
+  margin-top: 10%;
+  margin-bottom:5%;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+  align-self: center;
+  text-align: center;
+  height: 100%;
+  padding: 20px 20px 10px;
+  padding: 2%;
+}
+.about-columns img{
+  width: 40%;
+  padding: 10% 3%;
+}
+.experience-container{
+  margin-top: 5%;
+}
+
+/* immersive platform card */
+.immersive-platform img{
+  margin-bottom: 8%;
+  width: 60%;
+}
+.immersive-platform p{
+  margin-top: 15%;
+}
+/* research card */
+.research img{
+  margin-bottom: 10%;
+}
+.research p{
+  margin-top: 25%;
+}
+.row-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+/* OUR WORK */
+
+.our-project{
+  margin-top: 15%;
+}
+
+.our-project h1{
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  margin-bottom: 5%;
+}
+.video-container{
+  margin: 5% 0;
+}
+.video-description h2{
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+  margin: 5% 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.video-description p{
+  font-family: 'Lexend', sans-serif;
+  padding-right: 3%;
+}
+div.video-description{
+  text-indent: 2em;
+}
+
+.videos-row{
+  padding-left: 5%;
+}
+
+
+/* CONTACT */
+.contact-section{
+    width: 100%;
+    min-height: 15vh;
+    background-color: #796c91;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin-top: 10%;
+}
+.contact-section h1{
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+
+}
+.contact-btn{
+  width: 20%;
+  height: 40px;
+  background: none;
+  border: 4px solid;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+
+/* CONTACT PAGE */
+
+#contact{
+  min-height: 70vh;
+  margin-bottom: 5%;
+}
+#contact h1{
+  text-align: center;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+
+
+}
+#contact p{
+  margin-bottom: 5%;
+  font-family: 'Lexend', sans-serif;
+  text-align: center;
+}
+
+.contact-img img{
+  width: 60%;
+}
+
+label{
+  font-family: 'Lexend', sans-serif;
+}
+.submin-button{
+  color: #f23cfa;
+}
+
+
+
+/* FOOTER */
+footer{
+  min-height: 20vh;
+  background: linear-gradient(135deg, #291f3b 20%, #796c91 100%);
+  background-color: #221f3b;
+  background-color: #796c91;
+  color: white;
+  align-items: center;
+}
+footer img{
+  width: 20%;
+  padding-bottom: 3%;
+}
+
+.footer-row{
+  padding: 10%;
+}
+.footer-row h4{
+  font-family: 'Lexend', sans-serif;
+  font-size: 0.8rem;
+}
+.footer-contact{
+  align-self: center;
+  text-align: center;
+}
+.footer-logo{
+  align-self: center;
+  text-align: center;
+}
+.footer-contact h2{
+  margin-bottom: 5%;
+  font-family: 'Dela Gothic One', Helvetica, sans-serif;
+}
+.footer-contact h4{
+  font-family: 'Lexend', sans-serif;
+}
+/* 
+MOBILE SETTINGS */
+
+@media (max-width: 720px){
+
+  /* FIRST PAGE */
+  .img-header-column{
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+
+  /* CARDS AND ABOUT SECTION */
+  .about{
+    margin-top: 20%;
+  }
+  .immersive-experience{
+    font-size: 1.8rem;
+  }
+
+  .research p{
+    margin-top: 5%;
+  }
+  .about-columns h2{
+    font-size: 1.8rem;
+  }
+  .row-flex div{
+    margin-bottom: 5%;
+  }
+
+  /* YT VIDEOS */
+  iframe{
+    width: 100%;
+  }
+
+  .video-description{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+  }
+  .video-description h2{
+   text-align: center;
+   padding-right: 10%;
+  }
+  .video-description p{
+    text-align: center;
+   } 
+
+  .video-container {
+      overflow: hidden;
+      position: relative;
+      width:100%;
+      margin-bottom: 10%;
+  }
+  .video-two-description{
+    margin-bottom: 15%;
+  }
+
+  .contact-btn{
+    width:40%;
+    margin-bottom: 8%;
+  }
+  /* headers (IMMERSIVE EXPERIENCE AND WHAT WE WORK ON */
+  .immersive-experience{
+    margin-bottom: 10%;
+  }
+ 
+  /* btn contact side */
+  .btn-container{
+    text-align: center;
+  }
+
+  .contact-section h1{
+    font-size: 1.8rem;
+  }
+  
+  .contact-img img{
+    margin: 8%;
+  }
+  .contact-img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 720px){
+  .videos-row{
+    padding-left: 6%;
+  }
+
+}
+
+/* TABLET SETTINGS */
+@media screen and (max-width: 900px) and (min-width: 720px) {
+  .img-header-column{
+    margin-left: 10%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
+  .research p{
+    padding: 5% 10%;
+    margin: 0;
+  }
+  .immersive-experience{
+    padding: 0 5%;
+  }
+}
